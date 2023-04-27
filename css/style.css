@@ -1,0 +1,613 @@
+/*====================================================================================================================================*/
+/*=================================================INDEX.HTML  CSS===================================================*/
+/*====================================================================================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, 'Nunito';
+}
+
+
+header,
+footer,
+section,
+article,
+main,
+nav,
+aside,
+head {
+
+    display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+header {
+    background-color: #f5ddff;
+    width: 1440px;
+    height: 123px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.02px;
+    font-family: 'Amiko', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.02px;
+    font-family: 'Amiko', sans-serif;
+}
+
+nav ul li {
+
+    margin-right: 18px;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    margin-left: 575px;
+}
+
+#wrapper {
+    justify-content: center;
+    align-items: center;
+
+
+    margin-left: 244px;
+    margin-right: 315px;
+    margin-top: 91px;
+    height: 650px;
+    width: 881px;
+
+}
+
+.textWrapper {
+    display: inline-block;
+    margin-left: 244px;
+    margin-right: 70px;
+    margin-top: 305px;
+    width: 374px;
+    font-family: 'Amiko', sans-serif;
+}
+
+.rec1 {
+    margin-top: 44px;
+    background-color: gold;
+    width: 75px;
+    height: 32px;
+
+}
+
+.rec2 {
+    margin-top: 8px;
+    background-color: gold;
+    width: 136px;
+    height: 46px;
+
+}
+
+.rec3 {
+    margin-top: 11px;
+    background-color: gold;
+    width: 134px;
+    height: 404px;
+
+}
+
+.rec4 {
+    margin-top: 11px;
+    background-color: gold;
+    width: 88px;
+    height: 28px;
+
+}
+
+.rec5 {
+    margin-top: 7px;
+    background-color: gold;
+    width: 25px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 7px;
+
+}
+
+.rec8 {
+    background-color: gold;
+    width: 28px;
+    height: 55px;
+    margin-bottom: 11px;
+
+}
+
+.rec11 {
+    margin-top: 11px;
+    background-color: gold;
+    width: 28px;
+    height: 198px;
+
+}
+
+.bigRec {
+    margin-top: 44px;
+    background-color: gold;
+    width: 246px;
+    height: 352px;
+}
+
+.RectanglesWrapper {
+    display: flex;
+    margin-left: 0px;
+    float: Right;
+    width: 500px;
+    margin-bottom: 145px;
+    margin-top: 91px;
+}
+
+.rightGroupRecs {
+    width: 500px;
+    height: 624px;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.upperRightCornerRecs {
+    margin-left: 14px;
+}
+
+.upperRightGroup {
+    display: flex;
+    height: 396px;
+    margin-bottom: 16px;
+}
+
+.LowerRightGroup {
+    display: flex;
+    width: 500px;
+}
+
+.rec12 {
+    background-color: gold;
+    width: 123px;
+    height: 212px;
+
+}
+
+.between {
+    margin-left: 14px;
+    width: 250px;
+    display: flex;
+}
+
+.rec13 {
+    background-color: gold;
+    width: 55px;
+    height: 105px;
+    margin-right: 41px
+}
+
+.rec15 {
+    margin-top: 7px;
+    background-color: gold;
+    width: 110px;
+    height: 58px;
+    margin-left: 14px;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 700;
+    line-height: 96.05px;
+    color: #000000;
+    width: 234px;
+    height: 97px;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 400;
+    line-height: 32.02px;
+    color: #000000;
+    width: 374px;
+    height: 33px;
+}
+
+.redDot {
+    background-color: red;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 594px;
+    margin-bottom: 4px;
+    margin-top: 34px;
+
+}
+
+footer {
+    background-color: #000000;
+    display: fixed;
+    width: 1440px;
+    height: 41px;
+}
+
+
+/*====================================================================================================================================*/
+/*=================================================LAYOUT2.HTML  CSS===================================================*/
+/*====================================================================================================================================*/
+
+.redDotL2 {
+    background-color: red;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 686px;
+    margin-bottom: 4px;
+    margin-top: 34px;
+
+
+}
+
+.rightYellowRec {
+    margin-top: 35px;
+    Width: 169px;
+    Height: 1860px;
+    background-color: gold;
+    z-index: 0;
+    float: right;
+
+}
+
+.upperBlackRec {
+    z-index: 1;
+    margin-top: 119px;
+    Width: 80px;
+    Height: 80px;
+    background-color: black;
+    margin-left: 0px;
+}
+
+.lowerBlackRec {
+    z-index: 1;
+    margin-top: 417px;
+    Width: 80px;
+    Height: 80px;
+    background-color: black;
+    margin-left: 0px;
+
+}
+
+.RightwhiteRec {
+    z-index: 1;
+    margin-top: 48px;
+    Width: 80px;
+    Height: 80px;
+    background-color: white;
+    margin-right: 0px;
+    float: right;
+
+}
+
+.leftClomun {
+    height: 1741px;
+    width: 457px;
+    z-index: 1;
+    margin-left: 151px;
+    margin-top: 119px;
+    overflow-y: clip;
+}
+
+.silverRec {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 70px;
+    height: 299px;
+    width: 457px;
+    background-color: silver;
+}
+
+.navl2 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 575px;
+    margin-bottom: 0px;
+    height: 70px;
+    width: 457px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+}
+
+.rightClomun {
+    float: right;
+    margin-left: 55px;
+    margin-right: 151px;
+    margin-top: 287px;
+    height: 1573px;
+    overflow-y: clip;
+}
+
+main {
+    display: flex;
+    width: 1440px;
+}
+
+body {
+    margin: 0px auto;
+    width: 1440px;
+}
+
+#amin {
+    list-style: none;
+    position: relative;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+
+.name a {
+    font-family: 'Amiko', sans-serif;
+    font-Weight: 400;
+    font-Size: 96px;
+    Line-height: 128.06px;
+}
+
+ul a:hover {
+    color: red;
+}
+
+
+/*====================================================================================================================================*/
+/*=================================================LAYOUT3.HTML  CSS===================================================*/
+/*====================================================================================================================================*/
+header .upperBlackRec {
+    float: right;
+    margin-right: 22px;
+    margin-top: 21px;
+
+
+}
+
+#amin .name {
+    list-style: none;
+    position: absolute;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 1820px;
+    width: 30;
+    height: 500;
+}
+
+
+#midlleWrapper{
+    width: 836px;
+    height: 872px;
+    margin-right: 64px;
+    margin-left: 64px;
+    margin-top: 123px;
+    overflow: hidden;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftSilverRec {
+    margin-top: 0px;
+    margin-left: 0px;
+    Width: 372px;
+    Height: 995px;
+    background-color: silver;
+}
+
+.sideNav {
+    margin-top: 4px;
+    margin-left: 38px;
+    width: 291px;
+    height: 33px;
+    font-family: 'Amico', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.02px;
+    }
+
+.rightBlueRec {
+    margin-top: 0px;
+    Width: 104px;
+    Height: 995px;
+    background-color: rgb(200, 200, 254);
+    margin-left: 0px;
+    float: right;
+}
+
+#lowersection .lowerYellowRec {
+    Width: 1440px;
+    Height: 463px;
+    margin: 0 0 0 0;
+    background-color: gold;
+}
+
+#wrapper3 {
+
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.redDotL3 {
+
+    background-color: red;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: 228px;
+    left:301px;
+    margin-top: 105px;
+    margin-left: 263px;
+
+}
+
+.box{
+    text-align: center;
+    align-items: center;
+
+    margin-top :20px;
+    float :left;
+    text-align:   center;
+    font-size  : 64px;
+    font-weight : 400;
+    color : white;
+
+}
+
+@media screen and (max-width:850px) {
+
+    .rightBlueRec {
+        display: none;
+    }
+    #wrapper3{
+        width: 100%;
+        /* display: flex; 
+         flex-direction: column;  */
+         display: flex;
+         flex-wrap: wrap;
+    }
+    main{
+        width: 100%;
+        display: flex; 
+        flex-direction: column; 
+        margin: 0px auto;
+
+        
+    }
+    body{
+        width: 100%;
+        display: flex; 
+        flex-direction: column; 
+    }
+
+    #midlleWrapper{
+        /* display: none; */
+        width: 100%;
+        height: 1500px;
+        margin-right: 0px;
+        margin-left: 48px;
+        margin-top: 123px;
+         overflow: hidden; 
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .leftSilverRec {
+        width: 100%;
+        height: 105px;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 0px; */
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .lowerYellowRec {
+        width: 100%;
+        height: 409px;
+        background-color: gold;
+
+    }
+
+    footer {
+        width: 100%;
+        height: 41px;
+        margin: 0 0 0 0;
+    }
+
+    .sideNav {
+        width: 100%;
+        height: 33px;
+        font-family: 'Amico', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32.02px;
+        
+        
+
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sideNav ul {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .redDotL3 {
+        margin-top: 5px;
+        margin-left: 254px;
+
+    }
+
+    header {
+        width: 100%;
+        
+    }
+    .upperblackRec {
+        display: block;
+        background-color: black;
+        z-index: 3;
+        float: left;
+    }
+    #lowersection{
+        width: 100%;
+    }
+
+    .menuAndRedDot{
+        width: 291px;
+        margin: 0 auto;
+    }
+  
+
+}
