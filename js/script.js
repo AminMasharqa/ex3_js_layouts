@@ -7,11 +7,7 @@ let enterFlag = true;
           document.getElementById("mainRec").style.backgroundColor = "blue";
 
           class Box {
-            constructor(width, height, letter) {
-              this.width = width;
-              this.height = height;
-              this.letter = letter;
-            }
+            constructor(width, height, letter) { this.width = width; this.height = height; this.letter = letter;}
             getWidth() {
               return this.width;
             }
@@ -34,12 +30,7 @@ let enterFlag = true;
 
             devObj = document.createElement("div");
             devObj.className = "box";
-            boxObj = new Box(
-              `${_width}px`,
-              `${_height}px`,
-              "red",
-              `${arr[i % 4]}`
-            );
+            boxObj = new Box(`${_width}px`, `${_height}px`,"red", `${arr[i % 4]}` );
             devObj.style.width = boxObj.getWidth();
             devObj.style.height = boxObj.getHeight();
             devObj.style.backgroundColor = "red";
